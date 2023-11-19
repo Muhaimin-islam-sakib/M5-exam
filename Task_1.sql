@@ -1,3 +1,4 @@
+!--Sart--
 SELECT
     c.customer_id,
     c.name,
@@ -12,3 +13,4 @@ GROUP BY
     c.customer_id, c.name, c.email, c.location
 ORDER BY
     total_orders DESC;
+
